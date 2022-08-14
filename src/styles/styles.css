@@ -1,0 +1,365 @@
+.gorev-panel {
+    background: #eef2ff;
+    width: 390px;
+    height: 625px;
+    border-radius: 10px;
+    box-shadow: rgba(88, 88, 88, 0.548) 1px 1px 20px;
+    overflow:hidden;
+    display:flex;
+    flex-direction: column;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  margin-top: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(255, 255, 255);
+    background: #fff;
+    border-radius: 10px;
+  }
+
+  .ortalama {
+    margin: 0 auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+ }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #A2ABCD;
+    border-radius: 10px;
+  }
+
+.panel {
+    overflow: hidden;
+    flex:1;
+}
+
+
+.panel-header {
+    flex:1;
+    border-radius: 10px 10px 0 0;
+    min-height: 163px;
+    width: 390px;
+    background-size: cover !important;
+    height:auto;
+    max-height: 163px;
+    background: url(https://media.discordapp.net/attachments/996418404363800717/997133053694574592/head-bg.png);
+}
+
+.loading-cubugu {
+    background-color: #649d72;
+    width: 60%;
+    border-radius: 20px;
+    top: 5px;
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 25%), 0 1px rgb(255 255 255 / 8%);
+    position: relative;
+    background-image: linear-gradient(to bottom, rgb(118 255 107 / 46%), rgba(255, 255, 255, 0.05));
+}
+
+.loading-xp {
+    background: #4bad63;
+    text-align: center;
+    width: 20%;
+    line-height: 38px;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 1px 10px;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.loading-xp h2 {
+    font-size: 11px;
+    margin-top: -5px;
+}
+
+.level-bari {
+   text-align: center;
+   width: 50%;
+   border: none;
+   background-color: rgba(66, 66, 66, 0.733);
+   line-height: 28px;
+   border-radius: 20px;
+   margin-top: -8px;
+   margin-left: 45px;
+}
+
+.level-bari h2 {
+    margin-top: 1px;
+    position: relative;
+    margin-left: 59px;
+}
+
+.level {
+    display: flex;
+    height: 20px;
+}
+
+#panel-logo {
+    width: 50%;
+}
+
+ul {
+    display: flex;
+    padding: 0px 10px;
+}
+ ul li {
+    text-align: center;
+    padding: 10px 33px;
+    margin: 0 auto;
+    background: #fff;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 10px;
+ }
+
+ ul li:visited {
+    color:rgb(32, 116, 212);
+}
+
+ ul li:hover {
+    color: #3d3d3d;
+    background: rgb(218, 218, 218);
+    transition: 0.1s;
+ }
+
+ ul li a {
+    color: #525252;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+ }
+.ortalama h2 {
+    font-family: sans-serif;
+    color: rgb(230, 230, 230);
+    font-size: 14px;
+    margin-top: -5px;
+    margin-bottom: 20px;
+}
+
+#close-btn-panel {
+    cursor: pointer;
+   padding: 2px 4px;
+   position: relative;
+   line-height: 1;
+   right: -21.5rem;
+   top: 1.5rem;
+   border-radius: 0.25rem;
+   color: #fff;
+   box-shadow: 0 0 0 1.6px #fff;
+   border: 2px solid #921911;
+   background: repeating-linear-gradient(#f55041,#f55041 50%,#c23027 0,#c23027);
+}
+
+
+.gorev-box {
+   background-color: #fff;
+   margin-top: 20px;
+   border-radius: 10px;
+   height: 142px;
+   margin: 13px;
+}
+
+.panel-ici {
+   height:100%;
+    overflow:scroll;
+    overflow-x: hidden;
+    flex:1;
+}
+
+
+.desc {
+    float: right;
+   width: 64.5%;
+   background-color: #F5F8FF;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: #828282;
+   padding: 5px;
+   margin-top: 10px;
+   margin-right: 10px;
+   font-size: 13.5px;
+   border-radius: 10px;
+}
+
+.panel-title {
+   font-weight: bold;
+   margin-left: 10px;
+}
+
+.panel-desc {
+    margin-left: 10px;
+}
+
+#gorev-img {
+    border-radius: 20px;
+}
+
+button.btn-hotel {
+   float: right;
+   padding: 7px 51px;
+   margin-right: 10px;
+   color: #fff;
+   cursor: pointer;
+   border-radius: 10px;
+   border: none;
+   background-color: #69B47B;
+}
+
+button.close-btn {
+    float: left;
+   margin-left: 10px;
+   padding: 5px 16px;
+   background-color: #EEF2FF;
+   border-radius: 10px;
+   border: 2px solid #779DFF;
+   color: #779DFF;
+}
+
+.top-liste {
+    background: #fff;
+    margin: 36px 45px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.top-kullanici {
+    display: flex;
+    margin: -15px 1px;
+    border-radius: 2px;
+}
+
+.top-liste img {
+    width: 45px;
+    height: 45px;
+    background: #1f65ad38;
+    border-radius: 57px;
+    margin-top: 10px;
+    margin: 17px;
+}
+
+.top-liste h2 {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #8d8d8d;
+    margin: 25px -8px;
+}
+
+.top-liste h3 {
+    font-size: 10px;
+    position: absolute;
+    font-family: sans-serif;
+    color: #adadad;
+    margin: 41px 72px;
+}
+
+hr {
+    width: 85%;
+    border-radius: 10px;
+    background-color: rgb(255 255 255);
+    margin-top: 12px;
+    opacity: 0.2;
+}
+
+.uc, .iki, .top-box center {
+    position: relative;
+    top: -10px;
+}
+.top-uc {
+    display: flex;
+    margin: -9px 69px;
+}
+
+.top-uc img {
+    border-radius: 50px;
+    width: 47px;
+    height: 47px;
+}
+
+.top-uc h2 {
+    font-family: sans-serif;
+    color: #666666;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.uc-box {
+    background-color: #D89143;
+    height: 100%;
+}
+
+.bir-box {
+    background-color: #FEDA16;
+    height: 100%;
+}
+
+.iki-box {
+    background-color: #A7B1CA;
+    height: 100%;
+}
+
+.ortalama h1 {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative;
+    bottom: -34px;
+    margin: 20px;
+}
+
+.top-box h3 {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 8px;
+    margin-top: 50px;
+    margin: 10px;
+    padding: 3px;
+    position: relative;
+    bottom: -16px;
+    border-radius: 4px;
+}
+
+.top-box {
+    width: 65px;
+    border-radius: 10px;
+    margin: -17px 8px;
+}
+
+.iki-box h3 {
+    background: #969EB3;
+}
+
+.bir-box h3 {
+    background: #FDBD15;
+}
+
+.uc-box h3 {
+    background: #C38137;
+}
+
+.bir img {
+    background-color: #FEDA16;
+}
+
+.iki img {
+    background-color: #A7B1CA;
+}
+
+.uc img {
+    background-color: #D89143;
+}
+
+.iki, .uc {
+    margin-top: 28px;
+}
+.gorev-box img {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 20px;
+}

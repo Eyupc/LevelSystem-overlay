@@ -1,0 +1,36 @@
+<!doctype html> <!--This is in nitro-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Beta</title>
+    <base href="/">
+    <meta name="viewport" content="width=500, initial-scale=1.0">
+    <meta name="google" content="notranslate">
+
+    <!--The files to be inlcluded-->
+    <script defer="defer" src="/static/js/main.c7b81502.js"></script><link href="/static/css/main.c7fb67ab.css" rel="stylesheet">
+        
+<body>
+
+    <!--The div that has to be created !-->
+    <div id="levelsystem" style="z-index:99999; position:absolute;"></div>
+
+<iframe id="beta" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:1;" src=""></iframe>
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" type="text/javascript"></script>
+
+<script >
+document.getElementById("beta").src = "http://localhost/build/?sso=" + new URLSearchParams(window.location.search).get("sso");
+
+//Configuration
+var WSConfiguration = {
+	ws:"ws://127.0.0.1:2083", //websocket
+	sso:new URLSearchParams(window.location.search).get("sso"), //SSO
+	icons:"http://localhost/ms-swf/dcr/hof_furni/icons/" // Icons path
+}
+</script>
+
+</body>
+</html>
