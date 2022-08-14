@@ -13,10 +13,11 @@ And create a **div with id="levelsystem"**, give it also a **z-index:9999** and 
 ## Configuration
 You need to create a script inside the client file. <br/>
 For Example: <br/>
-var WSConfiguration = {
-	ws:"ws.host:port",
-	sso:"YOUR_SSO",
-	icons:"ICON_PATH"
+
+var WSConfiguration = {<br/>
+	ws:"ws.host:port",<br/>
+	sso:"YOUR_SSO",<br/>
+	icons:"ICON_PATH"<br/>
 }
 
 ## Contact
