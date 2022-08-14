@@ -10,8 +10,6 @@ First of all, you need to run some commands: <br/>
 After that you have to import the files in your client. <br/>
 And create a **div with id="levelsystem"**, give it also a **z-index:9999** and **position:absolute**.
 
-
-<br/>
 #### Configuration
 You need to create a script inside the client file. <br/>
 Example: <br/>
