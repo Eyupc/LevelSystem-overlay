@@ -3,7 +3,7 @@ To use this overlay you have to use the LevelSystem Plugin: <br/>
 Repo: https://github.com/Eyupc/LevelSystem-Plugin <br/>
 
 ## Usage
-First of all, you need to run some commands: <br/>
+First of all, you need to run a few commands: <br/>
 **npm i** <br/>
 **npm run build** <br/><br/>
 
