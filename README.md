@@ -1,6 +1,6 @@
 # LevelSystem-overlay
 To use this overlay you have to use the LevelSystem Plugin: <br/>
-Link: https://github.com/Eyupc/LevelSystem-Plugin <br/>
+Repo: https://github.com/Eyupc/LevelSystem-Plugin <br/>
 
 ## Usage
 First of all, you need to run some commands: <br/>
