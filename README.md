@@ -8,8 +8,9 @@ First of all, you need to run some commands: <br/>
 **npm run build** <br/><br/>
 
 After that you have to import the files in your client. <br/>
-##### _Creating a div in client page:_ <br/>
-**'<div id="levelsystem" style="z-index:99999; position:absolute;"></div>'**
+And create a **div with id="levelsystem"**, give it also a **z-index:9999** and **position:absolute**.
+
+
 <br/>
 #### Configuration<br/>
 You need to create a script inside the client file. <br/>
