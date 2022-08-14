@@ -24,8 +24,8 @@ var WSConfiguration = {<br/>
 You can find an example in example/client.html
 
 ## Images
-https://gyazo.com/bd69f98c0b98944b67972a440234507f
-https://gyazo.com/4fd6db3ec3540fd31a15550f171eade5
+https://gyazo.com/bd69f98c0b98944b67972a440234507f <br/>
+https://gyazo.com/4fd6db3ec3540fd31a15550f171eade5 <br/>
 https://gyazo.com/ec6ff00305582811ccb6dbdff82e82cd
 ## Contact
 Discord: Eyup#6692
