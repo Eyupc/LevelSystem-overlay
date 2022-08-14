@@ -12,7 +12,7 @@ And create a **div with id="levelsystem"**, give it also a **z-index:9999** and 
 
 ## Configuration
 You also need to create a script inside the client file. <br/>
-For Example: <br/>
+An example of a configuration: <br/>
 
 var WSConfiguration = {<br/>
 	ws:"ws.host:port",<br/>
