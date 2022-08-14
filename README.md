@@ -20,5 +20,7 @@ var WSConfiguration = {<br/>
 	icons:"ICON_PATH"<br/>
 }
 
+## Example
+You can find an example of a client file in -> example/client.html
 ## Contact
 Discord: Eyup#6692
