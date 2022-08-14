@@ -7,7 +7,7 @@ First of all, you need to run some commands: <br/>
 **npm i** <br/>
 **npm run build** <br/><br/>
 
-After that you have to import the files in your client. <br/>
+After that you have to import the files in your client. (The files in 'build' folder, after running **npm run build**) <br/>
 And create a **div with id="levelsystem"**, give it also a **z-index:9999** and **position:absolute**.
 
 ## Configuration
