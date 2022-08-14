@@ -21,6 +21,6 @@ var WSConfiguration = {<br/>
 }
 
 ## Example
-You can find an example of a client file in -> example/client.html
+You can find an example in example/client.html
 ## Contact
 Discord: Eyup#6692
